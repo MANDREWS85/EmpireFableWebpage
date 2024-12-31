@@ -8,7 +8,7 @@ export default function Videos() {
 
         <IframeContainer 
           title="BLOG"
-          src="https://empirefable.magwebdesigns.net/wp/EMPIRE-FABLE-OCEAN-DEEP-FINAL-3-19-23-b.html"
+          src="https://www.youtube.com/watch?v=7AgUOWjug74"
           height="800px"
           width="100%"
 
@@ -17,3 +17,8 @@ export default function Videos() {
     </div>
   );
 }
+
+
+
+
+
