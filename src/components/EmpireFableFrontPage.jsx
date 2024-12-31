@@ -6,6 +6,10 @@ import React, { useRef } from "react";
 const default_height = "400px";
 const default_width = "";
 
+//////    ROUTES   //////////
+import Blog from "../Routes/Blog.jsx";
+import Videos from "../Routes/Videos.jsx";
+
 export default function EmpireFableFrontPage() {
   const id = "EmpireFableFrontPage";
   return (
@@ -32,6 +36,18 @@ export default function EmpireFableFrontPage() {
           />
         </div>
       </div>
+
+      {/* #########################   VIDEOS  ####################################*/}
+      <div id="OneColumnContainer" class="OneColumnContainer">
+        <div id="ChildContainer" class="ChildContainer">
+          
+          <Videos />
+          
+        </div>
+      </div>
+
+
+      
 
       {/* ############################ GAMES  #################################*/}
       <div id="OneColumnContainer" class="OneColumnContainer">
